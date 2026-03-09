@@ -1,31 +1,8 @@
 {
-  "hemoglobin": {
-    "low": 12,
-    "high": 17
-  },
-
-  "platelets": {
-    "low": 150000,
-    "high": 450000
-  },
-
-  "wbc": {
-    "low": 4000,
-    "high": 11000
-  },
-
-  "glucose_fasting": {
-    "low": 70,
-    "high": 100
-  },
-
-  "creatinine": {
-    "low": 0.6,
-    "high": 1.3
-  },
-
-  "crp": {
-    "low": 0,
-    "high": 5
-  }
+  "hemoglobin": { "low": 12, "high": 17 },
+  "platelets": { "low": 150000, "high": 450000 },
+  "wbc": { "low": 4000, "high": 11000 },
+  "glucose_fasting": { "low": 70, "high": 100 },
+  "creatinine": { "low": 0.6, "high": 1.3 },
+  "crp": { "low": 0, "high": 5 }
 }
