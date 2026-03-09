@@ -14,8 +14,5 @@ def run_coordinator(doc, rad, pharm):
 
     return {
         "risk_score": risk_score,
-        "risk_level": risk_level,
-        "doctor_analysis": doc,
-        "radiology_analysis": rad,
-        "drug_safety": pharm
+        "risk_level": risk_level
     }

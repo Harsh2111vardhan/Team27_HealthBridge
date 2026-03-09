@@ -1,4 +1,4 @@
-from app.agents.radiology_lab_agent import RadiologyLabAgent
+from backend.app.agents.radiology_lab_agent import RadiologyLabAgent
 
 agent = RadiologyLabAgent()
 

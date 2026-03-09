@@ -1,6 +1,0 @@
-Hemoglobin: 10
-Platelets: 120000
-WBC: 9000
-Glucose: 110
-Creatinine: 1.1
-CRP: 8
