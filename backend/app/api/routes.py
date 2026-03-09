@@ -7,6 +7,8 @@ from backend.app.agents.doctor_agent import run_doctor_agent
 from backend.app.agents.radiology_lab_agent import run_radiology_agent
 from backend.app.agents.pharmacist_agent import run_pharmacist_agent
 from backend.app.agents.coordinator_agent import run_coordinator
+from backend.app.agents.coordinator_agent import run_coordinator
+
 
 from backend.app.population.aggregator import add_case
 
@@ -25,7 +27,9 @@ def analyze_patient(data: PatientRequest):
         image_path=patient_input.get("xray_path")
     )
 
-    pharmacist_output = run_pharmacist_agent(patient_input)
+    pharmacist_output = run_pharmacist_agent(
+        doctor_output.get("disease")
+    )
 
     final_assessment = run_coordinator(
         doctor_output,
