@@ -1,0 +1,73 @@
+{
+  "paracetamol": {
+    "interacts_with": [],
+    "contraindicated_conditions": ["severe_liver_disease"],
+    "risk_level": "moderate"
+  },
+
+  "ibuprofen": {
+    "interacts_with": ["warfarin", "aspirin"],
+    "contraindicated_conditions": ["peptic_ulcer", "renal_failure"],
+    "risk_level": "high"
+  },
+
+  "diclofenac": {
+    "interacts_with": ["warfarin"],
+    "contraindicated_conditions": ["peptic_ulcer"],
+    "risk_level": "high"
+  },
+
+  "amoxicillin": {
+    "interacts_with": [],
+    "contraindicated_conditions": ["penicillin_allergy"],
+    "risk_level": "high"
+  },
+
+  "azithromycin": {
+    "interacts_with": ["warfarin"],
+    "contraindicated_conditions": [],
+    "risk_level": "moderate"
+  },
+
+  "ciprofloxacin": {
+    "interacts_with": ["prednisolone"],
+    "contraindicated_conditions": [],
+    "risk_level": "moderate"
+  },
+
+  "metformin": {
+    "interacts_with": [],
+    "contraindicated_conditions": ["renal_failure"],
+    "risk_level": "high"
+  },
+
+  "glimepiride": {
+    "interacts_with": [],
+    "contraindicated_conditions": ["hypoglycemia"],
+    "risk_level": "moderate"
+  },
+
+  "amlodipine": {
+    "interacts_with": [],
+    "contraindicated_conditions": ["severe_hypotension"],
+    "risk_level": "moderate"
+  },
+
+  "atenolol": {
+    "interacts_with": [],
+    "contraindicated_conditions": ["asthma"],
+    "risk_level": "high"
+  },
+
+  "aspirin": {
+    "interacts_with": ["warfarin", "ibuprofen"],
+    "contraindicated_conditions": ["bleeding_disorder"],
+    "risk_level": "high"
+  },
+
+  "prednisolone": {
+    "interacts_with": ["ciprofloxacin"],
+    "contraindicated_conditions": ["systemic_infection"],
+    "risk_level": "moderate"
+  }
+}

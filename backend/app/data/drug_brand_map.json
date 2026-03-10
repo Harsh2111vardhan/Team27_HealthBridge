@@ -1,0 +1,54 @@
+{
+  "crocin": ["paracetamol"],
+  "crocin advance": ["paracetamol"],
+  "dolo 650": ["paracetamol"],
+  "calpol": ["paracetamol"],
+
+  "combiflam": ["ibuprofen", "paracetamol"],
+  "brufen": ["ibuprofen"],
+
+  "voveran": ["diclofenac"],
+  "dynapar": ["diclofenac"],
+
+  "augmentin": ["amoxicillin"],
+  "moxclav": ["amoxicillin"],
+
+  "azee": ["azithromycin"],
+  "azithral": ["azithromycin"],
+
+  "ciplox": ["ciprofloxacin"],
+  "cifran": ["ciprofloxacin"],
+
+  "metrogyl": ["metronidazole"],
+  "flagyl": ["metronidazole"],
+
+  "glycomet": ["metformin"],
+  "glucophage": ["metformin"],
+
+  "amaryl": ["glimepiride"],
+
+  "amlopres": ["amlodipine"],
+  "amlong": ["amlodipine"],
+
+  "aten": ["atenolol"],
+
+  "losar": ["losartan"],
+
+  "enalap": ["enalapril"],
+
+  "ecosprin": ["aspirin"],
+  "disprin": ["aspirin"],
+
+  "clopitab": ["clopidogrel"],
+
+  "astin": ["atorvastatin"],
+
+  "asthalin": ["salbutamol"],
+
+  "budecort": ["budesonide"],
+
+  "wysolone": ["prednisolone"],
+
+  "pantocid": ["pantoprazole"],
+  "omez": ["omeprazole"]
+}
